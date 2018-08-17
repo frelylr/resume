@@ -2,6 +2,9 @@
     body {
       font-size: smaller;
       font-family: "Arial", "Microsoft YaHei", "�K��", "�v��", sans-serif;
+      width:1000px;
+      height: 1030px;
+      margin: auto;
     }
 
     .icon {
@@ -10,12 +13,6 @@
       vertical-align: -0.15em;
       fill: currentColor;
       overflow: hidden;
-    }
-
-    #resume {
-      width: 1000px;
-      height: 2000px;
-      margin: auto;
     }
 
     #leftBody {
