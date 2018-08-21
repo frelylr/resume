@@ -3,7 +3,7 @@ body {
   font-size: smaller;
   font-family: "Arial", "Microsoft YaHei", "�K��", "�v��", sans-serif;
   width: 1000px;
-  height: 1420px;
+  height: 1415px;
   margin: auto;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 #headPortrait {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 #photo {
@@ -65,7 +65,8 @@ body {
   color: white;
 }
 
-#hobbies, #skills, #foreignLanguages {
+#characters, #hobbies, #skills, #foreignLanguages {
+  margin-top: 35px;
   font-size: 18px;
   color: white;
 }
@@ -79,6 +80,26 @@ body {
   font-size: 30px;
   margin-left: 20px;
   color: cadetblue;
+}
+
+#characterIcon {
+  margin-top: 15px;
+  margin-left: 72px;
+  font-size: 28px;
+}
+
+#characterIcon div {
+  background-color: #71b7b9;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 120px;
+  text-align: center;
+  border-radius: 100px;
+  height: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
 }
 
 #hobbyIcon {
@@ -185,7 +206,7 @@ span.jp {
   text-align: center;
   font-size: 24px;
   letter-spacing: 20px;
-  margin: 30px 0 50px 0;
+  margin: 30px 0 70px 0;
 }
 
 hr.titleLine {
@@ -269,8 +290,8 @@ hr.titleLine {
   }
 }
 
-#compass, #pManager, #pyramid, #other {
-  margin-top: 20px;
+#blade, #compass, #pManager, #pyramid, #other {
+  margin-top: 25px;
 }
 
 #blade p, #compass p, #pManager p, #pyramid p, #other p {
