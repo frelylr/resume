@@ -219,7 +219,7 @@ hr.titleLine {
 
 #jobContent {
   text-align: center;
-  padding: 20px 0 50px 0;
+  padding: 20px 0 30px 0;
   font-size: 15px;
 }
 
@@ -230,7 +230,7 @@ hr.titleLine {
 
 #education {
   text-align: center;
-  padding: 20px 0 50px 0;
+  padding: 20px 0 30px 0;
   font-size: 15px;
 }
 
@@ -251,7 +251,7 @@ hr.titleLine {
 }
 
 #experience3 {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 #experience1 div, #experience2 div, #experience3 div {
@@ -260,7 +260,7 @@ hr.titleLine {
 }
 
 #projects {
-  padding: 5px 30px 10px 50px;
+  padding: 0 30px 10px 50px;
 }
 
 .dot {
@@ -290,14 +290,6 @@ hr.titleLine {
   }
 }
 
-#blade {
-  margin-top: 10px;
-}
-
-#compass, #pManager, #pyramid, #other {
-  margin-top: 25px;
-}
-
 #blade p, #compass p, #pManager p, #pyramid p, #other p {
   width: 100px;
   font-family: helvetica, arial, sans-serif;
@@ -321,4 +313,10 @@ section {
 
 #other table td:nth-child(1n+2) {
   padding-left: 40px;
+}
+
+#characteristic {
+  margin-top: 10px;
+  margin-left: 50px;
+  line-height: 20px;
 }
